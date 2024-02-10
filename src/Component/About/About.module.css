@@ -1,0 +1,19 @@
+.About{
+    background-color: #F2EFE5;
+    padding: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    }
+    .line1{
+        background-color: white;
+        height: 4px;
+        width: 80px;
+        margin-right: 10px;
+    }
+    .line2{
+        background-color: white;
+        height: 4px;
+        width: 80px;
+        margin-left: 10px;
+    }

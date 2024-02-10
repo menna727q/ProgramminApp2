@@ -1,0 +1,41 @@
+.line1{
+    background-color: black;
+    height: 4px;
+    width: 80px;
+    margin-right: 10px;
+}
+.line2{
+    background-color: black;
+    height: 4px;
+    width: 80px;
+    margin-left: 10px;
+}
+.image{
+    cursor: pointer;
+}
+.enlarged .image {
+    width: 400px; /* Width of the image when enlarged */
+  }
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 30px; */
+    color: white;
+    background-color: rgba(127, 199, 217, 0.8);
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+.layer:hover{
+    opacity: 1;
+}
+.imagenormal {
+    width: 100%; /* Set the normal image width */
+    height: auto; /* Set the normal image height */
+  }
+  
+  .imagelarge {
+    width: 200%; /* Set the large image width */
+    height: auto; /* Set the large image height */
+  }

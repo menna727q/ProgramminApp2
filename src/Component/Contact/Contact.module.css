@@ -1,0 +1,16 @@
+.inputform{
+    border: none; 
+    border-bottom: 1px solid black;
+}
+.inputform:focus{
+    outline: none;
+}
+.subbtn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-top:8px ;
+    padding-bottom: 8px;
+}
